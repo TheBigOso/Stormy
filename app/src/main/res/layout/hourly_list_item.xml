@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              tools:background="@drawable/bg_gradient"
+              android:foregroundGravity="center_vertical"
+              android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeLabel"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        tools:text= "12 PM"
+        android:gravity="start"
+        android:foregroundGravity="left|center_vertical"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iconImageView"
+        android:src="@mipmap/sleet"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SummaryLabel"
+        android:textColor="#ffffffff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/temperatureLabel"
+        android:textColor="#ffffffff"
+        android:textSize="24sp"
+        tools:text="100"
+        android:textAlignment="textEnd"
+        android:gravity="center_vertical|end"
+        android:foregroundGravity="center_vertical|right"/>
+</LinearLayout>
